@@ -108,6 +108,10 @@ def altitude(a):
 # Ligne suivante a decommenter pour tester le temps en altitude
 #if __name__ == '__main__': testeur.fais_tests('09_ta_Collatz')
 
+# Ligne suivante a decommenter pour tester le temps avant la chute
+#if __name__ == '__main__': testeur.fais_tests('10_tac_Collatz')
+
+
 
 ## Pour la fin, je vous donne la possibilite de ne pas faire tous les calculs
 ## deux fois avec la structure suivante
@@ -130,9 +134,6 @@ if __name__ == '__main__' and faire_les_calculs:
     print(le_plus_haut) # Pour que vous puissiez noter la valeur apres calcul
 
 
-
-# Ligne suivante a decommenter pour tester le temps avant la chute
-#if __name__ == '__main__': testeur.fais_tests('10_tac_Collatz')
 
 # Ligne suivante a decommenter pour tester le plus haut
 #if __name__ == '__main__': testeur.fais_tests('11_plus_haut_Collatz')
